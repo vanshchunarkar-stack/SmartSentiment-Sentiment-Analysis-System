@@ -1,0 +1,4 @@
+text,predicted_sentiment,confidence
+I absolutely love this product.,neutral,0.41281082190708573
+This is the worst experience I have ever had.,negative,0.3768458871803633
+The product arrived yesterday.,neutral,0.4924907689970601
