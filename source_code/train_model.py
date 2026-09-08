@@ -28,7 +28,7 @@ def train():
     f1 = f1_score(y_test, y_pred, average='macro', zero_division=0)
     cm = confusion_matrix(y_test, y_pred)
     report = classification_report(y_test, y_pred, zero_division=0)
-    results = f"Model Evaluation Results:
+    results = f"""Model Evaluation Results:
 Accuracy:  {acc:.4f}
 Precision: {prec:.4f}
 Recall:    {rec:.4f}
@@ -39,7 +39,7 @@ Confusion Matrix:
 
 Classification Report:
 {report}
-"
+"""
     print(results)
     with open('vectorizer.pkl', 'wb') as f:
         pickle.dump(vectorizer, f)
