@@ -18,7 +18,7 @@ def train():
     X_train_vec = vectorizer.fit_transform(X_train)
     X_test_vec = vectorizer.transform(X_test)
     print("Training Logistic Regression model...")
-    model = LogisticRegression(random_state=42, multi_class='ovr')
+    model = LogisticRegression(random_state=42)
     model.fit(X_train_vec, y_train)
     print("Evaluating model...")
     y_pred = model.predict(X_test_vec)
