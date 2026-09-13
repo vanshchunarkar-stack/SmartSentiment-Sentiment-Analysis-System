@@ -1,6 +1,6 @@
 # SmartSentiment – Sentiment Analysis System Using NLP
 
-**Student:** Vansh
+**Student:** Vansh kailash chunarkar
 **Roll No:** BT240016ET
 **GitHub Username:** vanshchunarkar-stack
 **Repository:** SmartSentiment-Sentiment-Analysis-System
